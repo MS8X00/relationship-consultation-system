@@ -1,6 +1,8 @@
 # Relationship Consultation System
 
-A practical relationship consultation framework powered by multiple psychology-informed models.
+[中文](README.md) | [English](README.en.md)
+
+A skills bundle for AI agents, providing a practical relationship consultation framework powered by multiple psychology-informed models.
 
 ## Quick Start
 
