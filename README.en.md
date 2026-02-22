@@ -2,6 +2,12 @@
 
 A practical relationship consultation framework powered by multiple psychology-informed models.
 
+## Quick Start
+
+1. Ask your agent to read `CLAUDE.md` first (primary operating instructions).
+2. Describe your relationship scenario and state your goal (for example: rebuild trust, improve communication).
+3. For ongoing tracking, use `memory-templates/` to create profile and dyad files under `memory/`.
+
 ## Overview
 
 This project provides a structured consultation workflow for relationship scenarios.
